@@ -164,19 +164,6 @@ $(".full-cover").click(function() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // RADIO TOGGLES
 	$(".b92").click(function() {
 		player.src = "http://stream.playradio.rs:8001/play.mp3";
@@ -197,7 +184,7 @@ $(".full-cover").click(function() {
 		$('.bottombar-wrapper').fadeIn(0);
 		$('.bottombar-wrapper').css('bottom','0px');
 	    $('#last').css('display','block');
-	    document.getElementById("bottombar-link").href="pls/b92.m3u";
+	    document.getElementById("bottombar-link").href="http://www.playradio.rs/player.html";
 
 	    $('.radio-cover1').css('background','#CEA0FF');
 	    $('.radio-cover2, .radio-cover3, .radio-cover4, .radio-cover5, .radio-cover6, .radio-cover7, .radio-cover8, .radio-cover9, .radio-cover10, .radio-cover11, .radio-cover12, .radio-cover13, .radio-cover14').css('background','black');
@@ -228,7 +215,7 @@ $(".full-cover").click(function() {
 		$('.bottombar-wrapper').fadeIn(0);			
 		$('.bottombar-wrapper').css('bottom','0px');
 	    $('#last').css('display','block');
-	    document.getElementById("bottombar-link").href="pls/naxi80.pls";
+	    document.getElementById("bottombar-link").href="http://www.naxi.rs/80e";
 
 	    $('.radio-cover2').css('background','#CEA0FF');
 	    $('.radio-cover1, .radio-cover3, .radio-cover4, .radio-cover5, .radio-cover6, .radio-cover7, .radio-cover8, .radio-cover9, .radio-cover10, .radio-cover11, .radio-cover12, .radio-cover13, .radio-cover14').css('background','black');
@@ -260,7 +247,7 @@ $(".full-cover").click(function() {
 		$('.bottombar-wrapper').fadeIn(0);
 		$('.bottombar-wrapper').css('bottom','0px');
 	    $('#last').css('display','block');
-	    document.getElementById("bottombar-link").href="pls/radio202.asx";
+	    document.getElementById("bottombar-link").href="http://www.radiobeograd.rs/";
 
 	    $('.radio-cover3').css('background','#CEA0FF');
 	    $('.radio-cover1, .radio-cover2, .radio-cover4, .radio-cover5, .radio-cover6, .radio-cover7, .radio-cover8, .radio-cover9, .radio-cover10, .radio-cover11, .radio-cover12, .radio-cover13, .radio-cover14').css('background','black');
@@ -319,7 +306,7 @@ $(".full-cover").click(function() {
 		$('.bottombar-wrapper').fadeIn(0);		
 		$('.bottombar-wrapper').css('bottom','0px');
 	    $('#last').css('display','block');
-	    document.getElementById("bottombar-link").href="pls/laguna.pls";
+	    document.getElementById("bottombar-link").href="http://www.radiolaguna.rs/";
 
 		$('#cur-playing2, #cur-playing3').css('color','transparent');	
 		$('#cur-playing1').css('color','#C198ED');
@@ -351,7 +338,7 @@ $(".full-cover").click(function() {
 		$('.bottombar-wrapper').fadeIn(0);				
 		$('.bottombar-wrapper').css('bottom','0px');
 	    $('#last').css('display','block');
-	    document.getElementById("bottombar-link").href="pls/caffe.pls";
+	    document.getElementById("bottombar-link").href="http://www.naxi.rs/cafe";
 
 		$('#cur-playing2, #cur-playing3').css('color','transparent');	
 		$('#cur-playing1').css('color','#C198ED');
@@ -389,7 +376,7 @@ $(".full-cover").click(function() {
 		$('.bottombar-wrapper').fadeIn(0);				
 		$('.bottombar-wrapper').css('bottom','0px');
 	    $('#last').css('display','block');
-	    document.getElementById("bottombar-link").href="pls/studiob.pls";
+	    document.getElementById("bottombar-link").href="http://www.studiob.rs/radio/";
 
 	    $('.radio-cover7').css('background','#CEA0FF');
 	    $('.radio-cover1, .radio-cover2, .radio-cover3, .radio-cover4, .radio-cover5, .radio-cover6, .radio-cover8, .radio-cover9, .radio-cover10, .radio-cover11, .radio-cover12, .radio-cover13, .radio-cover14').css('background','black');
@@ -412,7 +399,7 @@ $(".full-cover").click(function() {
 
 	   	document.getElementById("bottom-title").innerHTML = "Radio 3";
 	    document.getElementById("bottom-desc").innerHTML = "Radio";
-	    document.getElementById("bottombar-link").href="pls/radio3.pls";
+	    document.getElementById("bottombar-link").href="http://www.radio3.rs/";
 
 		$('.bottom-icon').css('visibility','visible');	    
 		$('.bottom-icon').css('width','60px');	    
@@ -442,7 +429,7 @@ $(".full-cover").click(function() {
 
 	    document.getElementById("bottom-title").innerHTML = "Boom93";
 	    document.getElementById("bottom-desc").innerHTML = "Radio";
-	    document.getElementById("bottombar-link").href="pls/boom.pls";
+	    document.getElementById("bottombar-link").href="http://boom93.com/";
 		$(document).prop('title', 'Boom93');
 
 		$('#cur-playing2, #cur-playing3').css('color','transparent');	
@@ -540,7 +527,7 @@ $(".full-cover").click(function() {
 
 	    document.getElementById("bottom-title").innerHTML = "101";
 	    document.getElementById("bottom-desc").innerHTML = "Radio";
-	    document.getElementById("bottombar-link").href="pls/101.pls";
+	    document.getElementById("bottombar-link").href="http://radio101.rs/";
 		$(document).prop('title', 'Radio 101');
 
 		$('#cur-playing2, #cur-playing3').css('color','transparent');	
@@ -573,7 +560,7 @@ $(".full-cover").click(function() {
 
 	    document.getElementById("bottom-title").innerHTML = "Classic";
 	    document.getElementById("bottom-desc").innerHTML = "Radio";
-	    document.getElementById("bottombar-link").href="pls/klasik.pls";
+	    document.getElementById("bottombar-link").href="http://www.naxi.rs/classic";
 		$(document).prop('title', 'Classic Radio');
 
 		$('#cur-playing1, #cur-playing3').css('color','transparent');	
@@ -607,7 +594,7 @@ $(".full-cover").click(function() {
 
 	    document.getElementById("bottom-title").innerHTML = "Topola";
 	    document.getElementById("bottom-desc").innerHTML = "Radio";
-	    document.getElementById("bottombar-link").href="pls/topola.pls";
+	    document.getElementById("bottombar-link").href="http://www.ifmradio.rs/";
 		$(document).prop('title', 'Radio Topola');
 
 		$('#cur-playing2, #cur-playing3').css('color','transparent');	
