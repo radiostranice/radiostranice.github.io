@@ -1,7 +1,7 @@
 doctype html
 html
 	head
-		title r.a.d.i.o.
+		title R.A.D.I.O
 		meta(charset='utf-8')
 		meta(name="description" content="Najbolje radio stanica, Srbija.")
 		meta(name="author" content="Not Big Muzzy")
@@ -54,33 +54,29 @@ html
 
 
 
-
 		//- SIDEBAR TUTTO
 		div.sidebar-wrapper
-			div.sidebar-top
-				div.sidebar-content
-					input.sidebar-input(
-  						type='text'
-  						name='agreement'
-  						value='U izradi..'
-  						onfocus="this.value='';")
-					div.fa.fa-search.sidebar-srchicon
+			//- div.sidebar-top
+			//- 	div.sidebar-content
+			//- 		input.sidebar-input(
+			//- 				type='text'
+			//- 				name='agreement'
+			//- 				value='U izradi..'
+			//- 				onfocus="this.value='';")
+			//- 		div.fa.fa-search.sidebar-srchicon			
 			div.sidebar-middle
 				div.sidebar1
-					div.side-title INFO
+					div.side-title INFORMACIJE
 					div.side-item
 						div.fa.fa-newspaper-o.side-icon
 						div.side-desc 
-							strike Muzičke Vesti
+							strike Vesti
 					div.side-item.plejlista-button
 						div.fa.fa-rocket.side-icon
-						div.side-desc Top Liste
+						div.side-desc Liste
 					div.side-item.koncerti-button
 						div.fa.fa-globe.side-icon
 						div.side-desc Koncerti
-					div.side-item.index-button
-						div.fa.fa-microphone.side-icon
-						div.side-desc Index Radio						
 				div.sidebar2
 					div.side-title GLAVNA
 					div.side-item.servis-button 
@@ -89,10 +85,16 @@ html
 							strike Informacije
 					div.side-item.vreme-button
 						div.fa.fa-sun-o.side-icon
-						div.side-desc Vreme							
+						div.side-desc Vreme	
 					div.side-item.shoutbox-button
 						div.fa.fa-weixin.side-icon
-						div.side-desc Poruke						
+						div.side-desc Poruke
+				div.sidebar1
+					div.side-title RADIO
+					div.side-item.index-button
+						div.fa.fa-microphone.side-icon
+						div.side-desc Index Radio
+
 			div.sidebar-bottom
 				ul
 					li.fa.fa-user.sidebar-bottomitem.onama-button
@@ -124,14 +126,15 @@ html
 				div.top-mobmenu
 					div.mob-menu
 						img(src="icons/mobmenu.png")
-				div.left-title 
+				a(href="index.html")
+					div.left-title 
 				ul.top-left
 					li.top-left1 Muzika
 						#cur-playing1.fa.fa-bullhorn
 					li.top-left2 Priča
 						#cur-playing2.fa.fa-bullhorn
-					li.top-left4 Strano
-						#cur-playing3.fa.fa-bullhorn
+					//- li.top-left4 Strano
+					//- 	#cur-playing3.fa.fa-bullhorn
 					li.top-left3.active-region Sve
 						#cur-playing4.fa.fa-bullhorn
 
@@ -153,14 +156,12 @@ html
 			//- RADIO BUTTONS - ADD HERE
 			div.radios-wrapper
 				div.radio-item#first
-				div.radio-item.b92
-					div.fa.fa-play.radio-cover1.1play
 				div.radio-item.naxi80
 					div.fa.fa-play.radio-cover2.2play
 				div.radio-item.dvestadvojka
 					div.fa.fa-play.radio-cover3.3play
-				div.radio-item.antenabg
-					div.fa.fa-play.radio-cover4.4play
+				//- div.radio-item.antenabg
+				//- 	div.fa.fa-play.radio-cover4.4play
 				div.radio-item.laguna
 					div.fa.fa-play.radio-cover5.5play
 				div.radio-item.naxicafe
@@ -169,12 +170,14 @@ html
 					div.fa.fa-play.radio-cover7.7play
 				div.radio-item.radiotri
 					div.fa.fa-play.radio-cover8.8play
-				div.radio-item.radioparadaiz
-					div.fa.fa-play.radio-cover10.10play
+				div.radio-item.b92
+					div.fa.fa-play.radio-cover1.1play
+				//- div.radio-item.radioparadaiz
+				//- 	div.fa.fa-play.radio-cover10.10play
 				div.radio-item.radioboom
 					div.fa.fa-play.radio-cover9.9play
-				div.radio-item.radiotesaloniki
-					div.fa.fa-play.radio-cover11.11play
+				//- div.radio-item.radiotesaloniki
+				//- 	div.fa.fa-play.radio-cover11.11play
 				div.radio-item.radiostojedan
 					div.fa.fa-play.radio-cover12.12play
 				div.radio-item.radioklasik
@@ -222,7 +225,7 @@ html
 
 
 		//- SKRIPTORIUM
-		script(type='text/javascript', src='js/jquery-2.1.4.min.js')
+		script(type='text/javascript', src='http://code.jquery.com/jquery-2.1.4.min.js')
 		script(type='text/javascript', src='index.js')
-		script(type="text/javascript", src="js/mailto.ninja.js")
-		<script type="text/javascript">mailto.ninja()</script>
+		//- script(type="text/javascript", src="js/mailto.ninja.js")
+		//- <script type="text/javascript">mailto.ninja()</script>
