@@ -1,8 +1,6 @@
 TODO:
 
 
-- sakrij search polje i kontakt ubaci u O Nama
-
-- iskljuchi sve strane radioe
-
 - skloni antena radio, a ubaci najpopularnije srb radie sa "na vidiku"
+
+- ubaci mali "i" info bubble u desni gornji ugao koji otvara prozor u kome ima info o radio stanici?

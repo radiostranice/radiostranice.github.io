@@ -169,8 +169,8 @@ $(".full-cover").click(function() {
 		player.src = "http://stream.playradio.rs:8001/play.mp3";
 	    player.play();
 
-	    document.getElementById("bottom-title").innerHTML = "Radio";
-	    document.getElementById("bottom-desc").innerHTML = "Play";
+	    document.getElementById("bottom-title").innerHTML = "Play";
+	    document.getElementById("bottom-desc").innerHTML = "Radio";
 	    $('.nyanimg').attr('src', 'icons/nyancat.gif')
 
 		$('.bottom-icon').css('visibility','visible');	    
