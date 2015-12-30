@@ -62,7 +62,7 @@ $(document).ready(function() {
 		$('.index-iframe').css('top','50px');
 		$('.index-iframe').css('opacity','1');
 		$('.load-spinner').fadeOut(1000);
-		$('.index-frejm').attr('src', 'http://www.indexradio.rs/player#outer')
+		$('.index-frejm').attr('src', 'http://www.radios2.rs/player')
 	});
 
 	$(".full-coverindex").click(function() {
